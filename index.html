@@ -55,6 +55,17 @@
       }
       
     </style>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+	  
+   <script> 
+    $(function(){
+      $("#includedContentDiv").load("https://raw.githubusercontent.com/newtein/no_escape_search/master/tempfile.html"); 
+    });
+    </script> 
+	
   </head>
 
   <body>
@@ -73,7 +84,7 @@
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
-          <h1 id="indexingalgorithms">indexingAlgorithms</h1>
+          <h1 id="indexingalgorithms">Indexing Algorithms</h1>
 <p>This repository consists of disk-level indexing algorithms developed by my summer internship at Nyalazone Solutions Pvt Ltd.</p>
 
 <h2 id="indexing-file">Indexing File</h2>
@@ -87,7 +98,8 @@
         </section>
 
         <aside id="sidebar">
-          
+          <a href="#otherProjects"><h2 class="headB">   Other Projects  </h2> </a>
+
         <h2> Internship Project</h2>
           <p> May, 2017 - July, 2017 </p>
 
@@ -99,7 +111,8 @@
             Nyalazone Solutions Pvt Ltd </p>
            <h2 id="technologies-used">Tools/Technologies Used</h2>
           <p> Python, HDF-5, ZLIB Compression </p>
-      
+      	<div id="includedContentDiv"></div>
+
             <p class="repo-owner"><a href="https://github.com/newtein/indexingAlgorithms">indexingAlgorithms</a> is maintained by <a href="https://github.com/newtein"> Harshit Gujral (newtein) </a>.</p>
           
 
